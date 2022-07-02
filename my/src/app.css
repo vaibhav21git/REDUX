@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+.app
+{
+    background-color: rgb(204, 214, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 73vh;
+    width: 80vh;
+    position: relative;
+    top: 15vh;
+    left: 70vh;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+.funbox
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.funbox > a
+{
+  padding: 0.5rem;
+}
+
+.funbox > input
+{
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+    height : 50px;
+    font-size: 2rem;
+    box-shadow: 5px 4px 9px 1px rgb(99 106 104);
+}
+
+.plus
+{
+    font-weight: bold;
+    font-size: 5rem;
+    
+}
+
+.plus:hover
+{
+    background-color: rgb(182, 204, 198);
+}
+
+.minus:hover
+{
+    background-color: rgb(182, 204, 198);
+}
+
+
+.minus
+{
+    font-weight: bold;
+    font-size: 5rem;
+}
